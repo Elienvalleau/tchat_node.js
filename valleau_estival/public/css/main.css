@@ -1,0 +1,25 @@
+body {
+    padding-top:80px;
+    word-wrap:break-word;
+    font:13px "Trebuchet MS" , sans-serif;
+}
+
+#chat strong {
+    color: white;
+    background-color: black;
+    padding: 2px;
+    width: 100%;
+    border-top:0;
+    max-width:100%;
+}
+
+#chat {
+    border: 1px solid #bbb;
+    width:650px;
+    height:300px;
+    overflow-y:scroll;
+    padding:10px;
+    margin-bottom:10px;
+    margin-left: 450px;
+}
+

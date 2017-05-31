@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<title>Chien et Tchat</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<div class="container">
+
+	<div class="page-header text-center">
+		<h1><span class="fa fa-anchor"></span> Profil</h1>
+		<a href="/tchat" class="btn btn-default btn-sm">Accéder au tchat</a>
+		<a href="/logout" class="btn btn-default btn-sm">Se déconnecter</a>
+	</div>
+
+	<div class="row">
+
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span> Profil</h3>
+
+					<p>
+						<strong>id</strong>: <%= user._id %><br>
+						<strong>email</strong>: <%= user.local.email %><br>
+					</p>
+
+			</div>
+		</div>
+
+	</div>
+
+</div>
+</body>
+</html>
